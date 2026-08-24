@@ -1,0 +1,5 @@
+Company,Invoice No.,Invoice Date,Due Date,Currency,Amount,Department,Department_Head,USD Value,Days Overdue,Overdue Flag,Aging Bucket
+Stripe,11563,2024-09-02,2024-10-01,EUR,30000,Finance,Michael Rodriguez,33198.69,91,Yes,90+
+American Express,11597,2024-09-05,2024-12-03,CAD,67340,Finance,Michael Rodriguez,49815.64,28,Yes,1-30
+Apple,11778,2024-12-02,2024-12-02,EUR,51653,IT,Sarah Chen,54150.11,29,Yes,1-30
+Stripe,11778,2024-11-19,2025-02-17,USD,76828,Finance,Michael Rodriguez,76828.00,-48,No,Current
