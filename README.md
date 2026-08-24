@@ -60,14 +60,15 @@ Leadership views from the same table: spend by owner, spend by vendor, overdue r
 - Tabular pivot + slicers for leadership reporting
 - Data-quality check: invoice numbers are not a unique key
 
-## Interview framing
-
-> Finance was stacking monthly AP files by hand and converting currency in the sheet. I pointed Power Query at the folder, merged department owners, unpivoted daily FX rates, and converted each invoice to USD on the invoice date. A new month is a file drop and Refresh All. Leadership gets USD spend, owner, and overdue aging from the same model.
-
 ## Data notes
 
 Sample data is synthetic and based on a public Power Query training pattern. Invoice numbers can repeat across vendors and months. The grain of the fact table is **Company + Invoice No. + Invoice Date**, not Invoice No. alone. Details in [`docs/data-notes.md`](docs/data-notes.md).
 
-## License
+---
 
-MIT. Sample figures are for portfolio / training use only.
+**About Me**  
+Randall James | Data Coordinator / Data Analyst / Project Manager  
+St. Louis, MO (O'Fallon area) | Open to remote, hybrid, or on-site within ~30 min commute  
+[LinkedIn](https://www.linkedin.com/in/randall-james-stl) | [GitHub](https://github.com/senseirandystl) | randalljames34@pm.me
+
+*This project was created as part of my professional portfolio to demonstrate data analysis capabilities.*
